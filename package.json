@@ -1,0 +1,25 @@
+{
+  "name": "generator-dolphins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "mysql": "^2.15.0",
+    "yeoman-generator": "^2.0.1"
+  },
+  "description": "Yeoman 工程脚手架，可以生成基础微服务项目，CRUD 代码。本项目使用 NodeJS 开发，使用时务必安装 [NodeJS](https://nodejs.org)",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.91zdan.com/duiker/generator-duiker.git"
+  },
+  "author": ""
+}
