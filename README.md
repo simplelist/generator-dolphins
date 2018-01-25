@@ -46,13 +46,13 @@ $ yo dolphins
 
 ```
 $ cd $PROJECT_HOME
-$ yo duiker:entity
+$ yo dolphins:entity
 ```
 
 ## Upgrade
 
 ```
-$ cd generator-duiker
+$ cd generator-dolphins
 $ git pull
 ```
 
