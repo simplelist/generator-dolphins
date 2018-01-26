@@ -55,6 +55,8 @@ module.exports = class {
     this.generator.fs.copyTpl(this.generator.templatePath(`${baseTplPath}/config/MybatisPluginConfig.java`)
     , this.generator.destinationPath(`${baseDestPath}/config/MybatisPluginConfig.java`), data)
 
+    this.generator.fs.copyTpl(this.generator.templatePath(`${baseTplPath}/config/SwaggerConfig.java`)
+    , this.generator.destinationPath(`${baseDestPath}/config/SwaggerConfig.java`), data)
   }
 
   /**
