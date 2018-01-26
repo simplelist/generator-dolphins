@@ -57,6 +57,9 @@ module.exports = class {
 
     this.generator.fs.copyTpl(this.generator.templatePath(`${baseTplPath}/config/SwaggerConfig.java`)
     , this.generator.destinationPath(`${baseDestPath}/config/SwaggerConfig.java`), data)
+
+        this.generator.fs.copyTpl(this.generator.templatePath(`${baseTplPath}/config/RedisConfig.java`)
+    , this.generator.destinationPath(`${baseDestPath}/config/RedisConfig.java`), data)
   }
 
   /**
